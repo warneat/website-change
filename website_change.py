@@ -49,7 +49,7 @@ if __name__ == '__main__':
     compare_1 = get_website_text(URL, USER, PWRD)
     print('running...')
     send_telegram_message('running...\n'
-                          'found {0} {1}x'.format(SUBSTRING, count_given_string(compare_1, SUBSTRING)))
+                          '"{0}" was found {1}x'.format(SUBSTRING, count_given_string(compare_1, SUBSTRING)))
     time.sleep(SLEEP_SECONDS)
 
     while True:

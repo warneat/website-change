@@ -59,7 +59,7 @@ Set your config variables `URL`, `USER`, `PWRD`, `SUBSTRING`, and `SLEEP_SECONDS
 **Run the script with** `$pyhthon3 website_change.py` **or** `$./website_change.py`**.
 I highly recommend, using a cronjob on startup (see below)**
 
-Unfortunately, the message 'running...' does not mean, it is working (yet). To get some insight in what is being requested, run website_chane_show.py for a human-readable version in your command-prompt
+Unfortunately, the message 'running...' does not mean, it is working (yet). To get some insight in what is being requested, run `$./website_chane_show.py` for a human-readable version in your command-prompt
 
 
 ### Further reading:

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import time
 import website_change
 from bs4 import BeautifulSoup

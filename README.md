@@ -45,7 +45,7 @@ To configure telegram-send:
 
 	$telegram-send --configure
 	
-If prompted, add the location where pip3 installed the python modules and packages to PATH (adjust for your enrironment; the output of the pip-installation probaply gave you a hint)
+If prompted, add the location where pip3 installed the python modules and packages to PATH (adjust for your environment; the output of the pip-installation probaply gave you a hint)
 
 	$export PATH=/home/pi/.local/bin:$PATH
 
@@ -66,7 +66,7 @@ Unfortunately, the message 'running...' does not mean, it is working (yet). To g
 
 ### Further reading:
 
-To start the script automatically and keep it running without an open terminal window consider using cronjob on startup with a little delay. 
+To start the script automatically and keep it running without an open terminal window consider using cronjob on startup with a little delay: 
 
 	$crontab -e
 	
@@ -74,7 +74,8 @@ For example on a Raspberry Pi add this line at the bottom:
 
 	@reboot sleep 20 && /home/pi/website-change/website_change.py > /dev/null 2>&1
 
-or use 'screen' when running via ssh
+or use [screen](https://linuxize.com/post/how-to-use-linux-screen/) (ultra-quick tutorial ) via ssh, to keep process running in the background.
+
 
 ### TODO:
 - Improve security, e.g do not store password in python script, as it is basically a text file:

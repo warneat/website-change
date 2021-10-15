@@ -22,7 +22,7 @@ Clone this repository:
 
 	$git clone https://github.com/warneat/website-change
 
-To install required Packages, cd into the new directory and run:
+To install required Packages, cd into the new directory and run install requirements
 	
 	$cd website-change
 	
@@ -74,7 +74,7 @@ For example on a Raspberry Pi add this line at the bottom:
 
 	@reboot sleep 20 && /home/pi/website-change/website_change.py > /dev/null 2>&1
 
-or use [screen](https://linuxize.com/post/how-to-use-linux-screen/) (ultra-quick tutorial ) via ssh, to keep process running in the background.
+Otherwise you might want to use screen ([ultra-quick tutorial](https://linuxize.com/post/how-to-use-linux-screen/)) via ssh, to keep process running in the background.
 
 
 ### TODO:

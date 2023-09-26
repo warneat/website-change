@@ -1,5 +1,5 @@
-setuptools~=57.4.0
-requests~=2.26.0
+setuptools~=65.5.1
+requests~=2.31.0
 bs4~=0.0.1
 beautifulsoup4~=4.9.3
 telegram-send==0.25

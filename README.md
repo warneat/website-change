@@ -58,7 +58,7 @@ Set your config variables `URL`, `USER`, `PWRD`, `SUBSTRING`, and `SLEEP_SECONDS
 	
 **There you have it!** 
 
-**Run the script with** `$python3 website_change.py` **or** `$./website_change.py`**.
+**Run the script with** `$python3 website_change.py` **or** (after making i executable with `chmod +x website_change.py`): `$./website_change.py`**.
 I highly recommend, using a cronjob on startup (see below)**
 
 Unfortunately, the message 'running...' does not mean, it is working (yet). To get some insight in what is being requested, run `$./website_change_show.py` for a human-readable version in your command-prompt.
